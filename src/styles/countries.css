@@ -1,0 +1,7 @@
+.countries-box {
+  align-self: flex-start;
+  display: grid;
+  justify-content: center;
+  border-radius: 2em;
+  margin-top: 2em;
+}

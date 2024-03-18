@@ -1,0 +1,21 @@
+.select-box {
+  width: 50%;
+  height: auto;
+  justify-self: flex-start;
+  margin-left: 5%;
+}
+
+.select-box-light {
+  background-color: var(--Background-light-mode);
+}
+
+.select-box-dark {
+  background-color: var(--Background-dark-mode);
+}
+
+.form-select {
+  border: none !important;
+  outline: none !important;
+  padding: 1em !important;
+  box-shadow: 0em 0em 1em rgb(200, 200, 200);
+}

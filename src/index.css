@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*Primary text*/
+  --Very-dark-grey: hsl(0, 0%, 17%);
+  --Dark-grey: rgb(248, 248, 248);
+  /*Dark mode*/
+  --Text-dark-mode: hsl(0, 0%, 100%);
+  --Elements-dark-mode: hsl(209, 23%, 22%);
+  --Background-dark-mode: hsl(207, 26%, 17%);
+  /*Light mode*/
+  --Text-light-mode: hsl(200, 15%, 8%);
+  --Input-light-mode: hsl(0, 0%, 52%);
+  --Background-light-mode: hsl(0, 0%, 98%);
+  --Element-light-mode: hsl(0, 0%, 100%);
+}
+
+body,
+html {
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  background-color: var(--Dark-grey);
+  max-width: 100%;
+  width: 100vw;
+}
