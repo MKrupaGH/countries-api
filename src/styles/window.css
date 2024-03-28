@@ -1,8 +1,6 @@
 .window-countries {
-  width: 100%;
   display: grid;
-  grid-template-rows: 100px 100px auto;
-  grid-template-columns: 100%;
+  grid-template: 100px auto / 1fr 1fr;
   align-items: center;
   justify-items: center;
 }
@@ -13,4 +11,13 @@
 
 .window-countries-light {
   background-color: var(--Background-light-mode);
+}
+
+@media screen and (max-width: 600px) {
+  .window-countries {
+    display: grid;
+    grid-template: 100px 100px auto/ 1fr;
+    align-items: center;
+    justify-items: center;
+  }
 }

@@ -1,25 +1,24 @@
-import React from "react";
-import "../styles/filter.css";
+import React from "react"
+import "../styles/filter.css"
 
-const continents = ["Africa", "Americas", "Asia", "Europe", "Oceania"];
+const continents = ["Africa", "Americas", "Asia", "Europe", "Oceania"]
 
 function Filter({ handleChange }) {
   return (
-    <div className="select-box select-box-light">
+    <div className="select-box">
       <select
-        className="form-select"
+        className="form-select form-select-sm"
         name="continents"
         id="continents"
         defaultValue="filter"
         onChange={(e) => {
-          handleChange(e);
+          handleChange(e)
         }}
       >
         <option value="filter" disabled>
-          Filter by Region
+          Region
         </option>
         <option value="All">All</option>
-
         {continents.map((continent) => (
           <option key={continent} value={continent}>
             {continent}
@@ -27,7 +26,7 @@ function Filter({ handleChange }) {
         ))}
       </select>
     </div>
-  );
+  )
 }
 
-export default Filter;
+export default Filter

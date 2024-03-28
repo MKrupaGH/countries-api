@@ -2,10 +2,13 @@
   display: grid;
   grid-template-rows: 180px 50px 100px;
   width: 300px;
-  margin-bottom: 2em;
   background-color: white;
   border-radius: 0.5em;
   box-shadow: 0em 0em 1em rgb(200, 200, 200);
+}
+
+.country-box:nth-child():end {
+  margin-bottom: 2rem;
 }
 
 .box-image {
