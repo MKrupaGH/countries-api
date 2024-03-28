@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/coutires-app/static/css/main.64ebb8d3.css",
+    "main.js": "/coutires-app/static/js/main.7ec700b9.js",
+    "index.html": "/coutires-app/index.html",
+    "main.64ebb8d3.css.map": "/coutires-app/static/css/main.64ebb8d3.css.map",
+    "main.7ec700b9.js.map": "/coutires-app/static/js/main.7ec700b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64ebb8d3.css",
+    "static/js/main.7ec700b9.js"
+  ]
+}
